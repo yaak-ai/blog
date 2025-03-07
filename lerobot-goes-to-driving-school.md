@@ -29,7 +29,7 @@ future release ([R5+](#releases)).
             width: 100%">
 
 | Dataset  | Observation | State | Actions | Task/Instructions | Episodes | Duration (hr) |
-| :-----: | ---: | :---: | :---: | :---: | -----: | ---: | ---: |
+| :-----: | ---: | :---: | :---: | :---: | -----: | ---: |
 | [WAYMO](https://waymo.com/open/data/perception/) | RGB (5x) | — | — | — | 2030 | 11.3 |
 | [NuScenes](https://www.nuscenes.org/nuscenes#data-collection) | RGB (6x) | GPS/IMU | — | — | 1000 | 5.5 |
 | [MAN](https://brandportal.man/d/QSf8mPdU5Hgj) | RGB (4x) | GPS/IMU | — | — | 747 | 4.15 |
