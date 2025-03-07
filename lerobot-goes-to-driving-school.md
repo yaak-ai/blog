@@ -43,6 +43,14 @@ future release ([R5+](#releases)).
   <em> Table 1: Open source self-driving datasets. <a href="https://arxiv.org/pdf/2305.02008">Source</a> </em>
 </p>
 
+<div align="center">
+  <img src="https://github.com/yaak-ai/blog/blob/yaak/lerobot-goes-to-driving-school/assets/193_l2d/traffic-lights-left-turn-hf-01.gif" alt="Natural language search">
+</div>
+
+<p align="center">
+  <em> Fig 1: Natural language search by instructions</em>
+</p>
+
 L2D was collected with identical sensor suites installed on 60 EVs operated by driving schools in 30 German
 cities over the span of 3 years. The policies in L2D are divided into two groups — **expert policies** executed by
 driving instructors and **student policies** by learner drivers. Both the policy groups include natural language instructions
@@ -270,10 +278,6 @@ and uncover scenarios within our entire data collection and build a community po
 The AI community can now search for episodes through [our natural language search](https://nutron-sandbox.yaak.ai/) and queue
 their collection for review by the community for merging them into the upcoming releases. With L2D, we hope to unlock an
 ImageNet moment for spatial intelligence.
-
-<div align="center">
-  <img src="https://github.com/yaak-ai/blog/blob/yaak/lerobot-goes-to-driving-school/assets/193_l2d/traffic-lights-left-turn-hf-01.gif" alt="Natural language search">
-</div>
 
 
 # Closed Loop Testing
