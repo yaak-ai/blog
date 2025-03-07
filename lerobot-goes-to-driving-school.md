@@ -192,7 +192,7 @@ which equates to the time when the vehicle enters and exits the geospatial lines
 
 | Begin: Driving task (Best viewed in a separate tab)  | End: Driving task (Best viewed in a separate tab) |
 |:--------------------------:|:----------------------:|
-| ![](https://github.com/yaak-ai/blog/blob/yaak/lerobot-goes-to-driving-school/assets/193_l2d/image8.png) | ![](https://github.com/yaak-ai/blog/blob/yaak/lerobot-goes-to-driving-school/assets/193_l2d/image7.png){ width=80% } |
+| ![](https://github.com/yaak-ai/blog/blob/yaak/lerobot-goes-to-driving-school/assets/193_l2d/image8.png) | ![](https://github.com/yaak-ai/blog/blob/yaak/lerobot-goes-to-driving-school/assets/193_l2d/image7.png) |
 
 <p align="center">
     <em> Fig 6: Pink: GNSS trace, Blue: Matched route, tasks: Yield, Train crossing and Roundabout <a href="https://api.mapbox.com/styles/v1/yaak-driving-curriculum/cm6z3pjsh01df01qr6mhs636z.html?title=view&access_token=pk.eyJ1IjoieWFhay1kcml2aW5nLWN1cnJpY3VsdW0iLCJhIjoiY2txYzJqb3FwMWZweDJwbXY0M3R5cDAzYyJ9.vfIvUIpyVbBXqPjOjM7hEg&zoomwheel=true&fresh=true#17.81/48.776693/9.133048">(View Map) </em>
