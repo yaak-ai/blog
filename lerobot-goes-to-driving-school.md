@@ -54,7 +54,7 @@ for the driving task. For example, “When you have the right of way, *take the 
 
 <p align="center">
   <em> Fig 1: 3 of 6 cameras in L2D shown here for clarity, Visualization: <a href="https://nutron-sandbox.yaak.ai/datasets/">Nutron</a>
-  Instructions: “*When you have the right of way, drive through the roundabout and take the third exit*”.
+  Instructions: “When you have the right of way, drive through the roundabout and take the third exit”.
   </em>
 </p>
 
@@ -153,8 +153,8 @@ trace to the OSM graph and sampling 10 equidistant points (orange) spanning 100 
 
 <p align="center">
   <em> Fig 4: L2D 6x RGB cameras, waypoints (orange) and vehicle location (green)
-  Instructions: “*drive straight up to the stop stop sign and then when you have right of way,
-  merge with the moving traffic from the left*” </em>
+  Instructions: drive straight up to the stop stop sign and then when you have right of way,
+  merge with the moving traffic from the left </em>
 </p>
 
 # Search & Curation
