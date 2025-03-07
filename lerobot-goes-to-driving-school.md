@@ -43,7 +43,7 @@ future release ([R5+](#releases)).
   <em> Table 1: Open source self-driving datasets. <a href="https://arxiv.org/pdf/2305.02008">Source</a> </em>
 </p>
 
-L2D was collected with identical sensor suites installed on 60 EVs operated by driving schools in 30 German
+L2D was collected with [identical sensor suites](#a2-data-collection-hardware) installed on 60 EVs operated by driving schools in 30 German
 cities over the span of 3 years. The policies in L2D are divided into two groups — **expert policies** executed by
 driving instructors and **student policies** by learner drivers. Both the policy groups include natural language instructions
 for the driving task. For example, “When you have the right of way, *take the third exit from the roundabout, carefully driving over the pedestrian crossing*”.
@@ -88,7 +88,7 @@ diverse [environment conditions](https://huggingface.co/spaces/lerobot/visualize
 [construction zones](https://huggingface.co/spaces/lerobot/visualize_dataset?dataset=yaak-ai%2Flerobot-driving-school&episode=5) and
 [non-functioning traffic signals](https://huggingface.co/spaces/lerobot/visualize_dataset?dataset=yaak-ai%2Flerobot-driving-school&episode=7).
 
-Both the expert and student policy groups are captured with the [identical sensor setup](#a.2-data-collection-hardware)
+Both the expert and student policy groups are captured with the [identical sensor setup](#a2-data-collection-hardware)
 detailed in the table below. **Six RGB** cameras capture the vehicle’s context in 360o, and on-board GPS captures the vehicle
 location and heading. An IMU collects the vehicle dynamics, and we read speed, gas/brake pedal, steering angle,
 turn signal and gear from the vehicle’s CAN interface. We synchronized all modality types with the front left camera
@@ -165,7 +165,7 @@ trace to the OSM graph and sampling 10 equidistant points (orange) spanning 100 
 | GPS traces from the expert policies collected from the driving school fleet. [Click here](https://api.mapbox.com/styles/v1/yaak-driving-curriculum/cm6up5as0019a01r5e6n33wmn.html?title=view&access_token=pk.eyJ1IjoieWFhay1kcml2aW5nLWN1cnJpY3VsdW0iLCJhIjoiY2txYzJqb3FwMWZweDJwbXY0M3R5cDAzYyJ9.vfIvUIpyVbBXqPjOjM7hEg&zoomwheel=true&fresh=true#12.29/51.96097/7.6215) to see the full extent of expert policies in L2D. |  | Student policies cover the same geographical locations as expert policies. [Click here](https://api.mapbox.com/styles/v1/yaak-driving-curriculum/cm6upwi4f01ay01pb8o939vq9.html?title=view&access_token=pk.eyJ1IjoieWFhay1kcml2aW5nLWN1cnJpY3VsdW0iLCJhIjoiY2txYzJqb3FwMWZweDJwbXY0M3R5cDAzYyJ9.vfIvUIpyVbBXqPjOjM7hEg&zoomwheel=true&fresh=true#12.91/51.96046/7.62953) to see the full extent of student policies in L2D. |
 
 We collected the expert and student policies with a fleet of 60 KIA E-niro driving school vehicles
-operating in 30 German cities, with an identical sensor suite. The multimodal logs collected with the
+operating in 30 German cities, with an [identical sensor suite](#a2-data-collection-hardware). The multimodal logs collected with the
 fleet are unstructured and void of any task or instructions information. To search and curate for episodes
 we enrich the raw multimodal logs with information extracted through map matching the GPS traces with OSRM
 and assigning [node](https://www.openstreetmap.org/node/5750552027#map=19/52.452765/13.384440) and
@@ -358,7 +358,7 @@ of the vehicle in an urban environment, for example, multilane left turns and ro
 
 ## A.2 LLM prompts
 
-Prompt template and pseudo code for configuring the LLM using [groq](https://docs.llamaindex.ai/en/stable/examples/llm/groq/)
+Prompt template and pseudo code for configuring the LLM using [groq](https://console.groq.com/playground)
 to parse natural language queries into [structured prediction](https://console.groq.com/docs/text-chat#json-mode) for route
 features, restrictions and maneuvers with a pydantic model. The natural language queries are constructed to closely follow
 the turn-by-turn navigation available in most GPS navigation devices.
@@ -444,7 +444,7 @@ chat_completion = client.chat.completions.create(
 
 ## A.2 Data collection hardware
 
-![][image13]
+![][https://github.com/yaak-ai/blog/blob/yaak/lerobot-goes-to-driving-school/assets/193_l2d/image9.png]
 
 **Onboard compute: NVIDIA Jetson AGX Xavier**
 
