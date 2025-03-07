@@ -444,7 +444,7 @@ chat_completion = client.chat.completions.create(
 
 ## A.2 Data collection hardware
 
-![][https://github.com/yaak-ai/blog/blob/yaak/lerobot-goes-to-driving-school/assets/193_l2d/image9.png]
+![](https://github.com/yaak-ai/blog/blob/yaak/lerobot-goes-to-driving-school/assets/193_l2d/image9.png)
 
 **Onboard compute: NVIDIA Jetson AGX Xavier**
 
