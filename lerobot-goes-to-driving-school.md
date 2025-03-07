@@ -28,27 +28,19 @@ future release ([R5+](#releases)).
             margin-right: auto;
             width: 100%">
 
-| Dataset  | Observation | State | Actions | Task/Instructions | Episodes | Duration (hr) | Size TB |
+| Dataset  | Observation | State | Actions | Task/Instructions | Episodes | Duration (hr) |
 | :-----: | ---: | :---: | :---: | :---: | -----: | ---: | ---: |
-| [WAYMO](https://waymo.com/open/data/perception/) | RGB (5x) | — | — | — | 2030 | 11.3 |  |
-| [NuScenes](https://www.nuscenes.org/nuscenes#data-collection) | RGB (6x) | GPS/IMU | — | — | 1000 | 5.5 |  |
-| [MAN](https://brandportal.man/d/QSf8mPdU5Hgj) | RGB (4x) | GPS/IMU | — | — | 747 | 4.15 |  |
-| [ZOD](https://zod.zenseact.com/) | RGB (1x) | GPS/IMU/CAN | ☑️ | — | 1473 | 8.2 |  |
-| [COMMA](https://github.com/commaai/comma2k19) | RGB (1x) | GPS/IMU/CAN | ☑️ | — | 2019 | 33 | 0.1 |
-| [L2D (**R4**)](https://huggingface.co/datasets/yaak-ai/L2D) | RGB **(6x)** | GPS/IMU/CAN | ☑️ | ☑️ | **1000000** | **5000**\+ | **90+** |
+| [WAYMO](https://waymo.com/open/data/perception/) | RGB (5x) | — | — | — | 2030 | 11.3 |
+| [NuScenes](https://www.nuscenes.org/nuscenes#data-collection) | RGB (6x) | GPS/IMU | — | — | 1000 | 5.5 |
+| [MAN](https://brandportal.man/d/QSf8mPdU5Hgj) | RGB (4x) | GPS/IMU | — | — | 747 | 4.15 |
+| [ZOD](https://zod.zenseact.com/) | RGB (1x) | GPS/IMU/CAN | ☑️ | — | 1473 | 8.2 |
+| [COMMA](https://github.com/commaai/comma2k19) | RGB (1x) | GPS/IMU/CAN | ☑️ | — | 2019 | 33 |
+| [L2D (**R4**)](https://huggingface.co/datasets/yaak-ai/L2D) | RGB **(6x)** | GPS/IMU/CAN | ☑️ | ☑️ | **1000000** | **5000**\+ |
 
 </div>
 
 <p align="center">
   <em> Table 1: Open source self-driving datasets. <a href="https://arxiv.org/pdf/2305.02008">Source</a> </em>
-</p>
-
-<div align="center">
-  <img src="https://github.com/yaak-ai/blog/blob/yaak/lerobot-goes-to-driving-school/assets/193_l2d/traffic-lights-left-turn-hf-01.gif" alt="Natural language search">
-</div>
-
-<p align="center">
-  <em> Fig 1: Searching episodes by natural language instructions</em>
 </p>
 
 L2D was collected with identical sensor suites installed on 60 EVs operated by driving schools in 30 German
@@ -279,6 +271,13 @@ The AI community can now search for episodes through [our natural language searc
 their collection for review by the community for merging them into the upcoming releases. With L2D, we hope to unlock an
 ImageNet moment for spatial intelligence.
 
+<div align="center">
+  <img src="https://github.com/yaak-ai/blog/blob/yaak/lerobot-goes-to-driving-school/assets/193_l2d/traffic-lights-left-turn-hf-01.gif" alt="Natural language search">
+</div>
+
+<p align="center">
+  <em> Fig 1: Searching episodes by natural language instructions</em>
+</p>
 
 # Closed Loop Testing
 
