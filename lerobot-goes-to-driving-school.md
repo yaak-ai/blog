@@ -48,7 +48,7 @@ cities over the span of 3 years. The policies in L2D are divided into two groups
 driving instructors and **student policies** by learner drivers. Both the policy groups include natural language instructions
 for the driving task. For example, “When you have the right of way, *take the third exit from the roundabout, carefully driving over the pedestrian crossing*”.
 
-| Expert policy — Driving instructor | Student policy — Learner driver |
+| Expert policy — Driving instructor (Best viewd in a separate tab) | Student policy — Learner driver (Best viewd in a separate tab) |
 | :---- | :---- |
 | ![](https://github.com/yaak-ai/blog/blob/yaak/lerobot-goes-to-driving-school/assets/193_l2d/image1.gif) | ![](https://github.com/yaak-ai/blog/blob/yaak/lerobot-goes-to-driving-school/assets/193_l2d/image10.gif) |
 
